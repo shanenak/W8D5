@@ -121,7 +121,7 @@ function curriedSum(numArgs) {
 
 ///// with rest 
 Function.prototype.curry = function(numArgs) {
-    let that = this;
+    let that = this; // function sumThree
     let args = [];
     return function _curriedSum(arg) {
         args.push(arg);
